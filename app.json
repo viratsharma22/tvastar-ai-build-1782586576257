@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "sdkVersion": "50.0.0",
+    "name": "Water Tracker",
+    "slug": "water-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "backgroundColor": "#000000",
+    "backgroundOpacity": 1,
+    "platforms": ["ios", "android", "web"],
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "googleServicesFile": "./google-services.json"
+    }
+  }
+}
